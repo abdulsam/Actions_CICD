@@ -12,6 +12,6 @@ jobs:
         #run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: install wandb through python script
         run: |
-          pip install -r requirements.txt
+          pip install -r requiremnts.txt
           python ci.py
 
